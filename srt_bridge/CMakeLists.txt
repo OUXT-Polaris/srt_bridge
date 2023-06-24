@@ -64,34 +64,4 @@ ament_export_targets(
   export_${PROJECT_NAME}
 )
 
-macro(build_peglib)
-  set(cmake_commands)
-  set(cmake_configure_args -Wno-dev)
-  set(cmake_configure_args -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
-
-  include(ExternalProject)
-  externalproject_add(cpp-peglib-ext
-    GIT_REPOSITORY https://github.com/Haivision/srt.git
-    GIT_TAG 9448e26fcd7602098b4bf9cd7fe535136e89e10b
-    TIMEOUT 6000
-    ${cmake_commands}
-    CMAKE_ARGS
-      ${cmake_configure_args}
-  )
-  # The external project will install to the build folder, but we'll install that on make install.
-  install(
-    DIRECTORY
-      ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install/
-    DESTINATION
-      ${CMAKE_INSTALL_PREFIX}
-  )
-endmacro()
-
-build_peglib()
-ament_export_include_directories(include)
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
 ament_package()
