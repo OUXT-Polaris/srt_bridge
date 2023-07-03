@@ -1,0 +1,319 @@
+[0.027s] Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor
+[0.179s] -- The C compiler identification is GNU 11.3.0
+[0.306s] -- The CXX compiler identification is GNU 11.3.0
+[0.326s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.478s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.479s] -- Detecting C compile features
+[0.480s] -- Detecting C compile features - done
+[0.486s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.662s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.662s] -- Detecting CXX compile features
+[0.663s] -- Detecting CXX compile features - done
+[0.684s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.969s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.267s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.410s] -- Added test 'xmllint' to check XML markup files
+[1.418s] -- Configuring done
+[1.426s] -- Generating done
+[1.428s] -- Build files have been written to: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor
+[1.438s] Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor
+[1.439s] Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor -- -j4 -l4
+[1.549s] [ 12%] [34m[1mCreating directories for 'srt_vendor'[0m
+[1.705s] [ 25%] [34m[1mPerforming download step (git clone) for 'srt_vendor'[0m
+[1.746s] Cloning into 'srt_vendor'...
+[5.725s] HEAD is now at 9448e26 [docs] Minor updates to AEAD docs plus changed v1.6.0 to 1.5.2 in some files
+[5.848s] [ 37%] [34m[1mPerforming update step for 'srt_vendor'[0m
+[5.902s] [ 50%] [34m[1mNo patch step for 'srt_vendor'[0m
+[5.957s] [ 62%] [34m[1mPerforming configure step for 'srt_vendor'[0m
+[6.070s] -- The C compiler identification is GNU 11.3.0
+[6.175s] -- The CXX compiler identification is GNU 11.3.0
+[6.193s] -- Detecting C compiler ABI info
+[6.309s] -- Detecting C compiler ABI info - done
+[6.320s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[6.320s] -- Detecting C compile features
+[6.321s] -- Detecting C compile features - done
+[6.326s] -- Detecting CXX compiler ABI info
+[6.456s] -- Detecting CXX compiler ABI info - done
+[6.467s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[6.468s] -- Detecting CXX compile features
+[6.468s] -- Detecting CXX compile features - done
+[6.480s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.482s] -- Looking for pthread.h
+[6.656s] -- Looking for pthread.h - found
+[6.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.823s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.825s] -- Found Threads: TRUE  
+[6.829s] -- BUILD TYPE: Release
+[6.830s] -- Performing Test HAVE_CLOCK_GETTIME_IN
+[7.012s] -- Performing Test HAVE_CLOCK_GETTIME_IN - Success
+[7.012s] -- CLOCK_MONOTONIC: available, no extra libs needed
+[7.012s] -- LOGGING: ENABLED
+[7.012s] -- USE_BUSY_WAITING: OFF (default)
+[7.013s] -- No WITH_COMPILER_PREFIX - using C++ compiler /usr/lib/ccache/g++
+[7.013s] -- Looking for inet_pton
+[7.131s] -- Looking for inet_pton - found
+[7.131s] -- Checking for pthread_(g/s)etname_np in 'pthread_np.h':
+[7.132s] -- Looking for pthread_getname_np
+[7.200s] -- Looking for pthread_getname_np - not found
+[7.201s] -- Looking for pthread_setname_np
+[7.268s] -- Looking for pthread_setname_np - not found
+[7.269s] -- Checking for pthread_(g/s)etname_np in 'pthread.h':
+[7.269s] -- Looking for pthread_getname_np
+[7.436s] -- Looking for pthread_getname_np - found
+[7.437s] -- Looking for pthread_setname_np
+[7.602s] -- Looking for pthread_setname_np - found
+[7.603s] -- Checking for module 'openssl libcrypto'
+[7.632s] --   Found openssl libcrypto, version 3.0.2;3.0.2
+[7.710s] -- SSL via pkg-config: -L /usr/lib/x86_64-linux-gnu -I  -l;ssl;crypto
+[7.710s] -- ENCRYPTION: ENABLED, using: openssl libcrypto
+[7.710s] -- SSL libraries: ssl;crypto
+[7.710s] -- ENCRYPTION AEAD API: DISABLED
+[7.710s] -- COMPILER: GNU (/usr/lib/ccache/g++) - GNU compat
+[7.711s] -- NOTE: GNU 11.3.0 - assuming default C++11.
+[7.711s] -- Looking for __atomic_fetch_add_8 in atomic
+[7.827s] -- Looking for __atomic_fetch_add_8 in atomic - found
+[7.827s] -- Performing Test HAVE_LIBATOMIC_COMPILES
+[7.981s] -- Performing Test HAVE_LIBATOMIC_COMPILES - Success
+[7.982s] -- Performing Test HAVE_LIBATOMIC_COMPILES_STATIC
+[8.223s] -- Performing Test HAVE_LIBATOMIC_COMPILES_STATIC - Success
+[8.223s] -- Performing Test HAVE_GCCATOMIC_INTRINSICS
+[8.388s] -- Performing Test HAVE_GCCATOMIC_INTRINSICS - Success
+[8.389s] -- Performing Test HAVE_CXX_ATOMIC
+[8.612s] -- Performing Test HAVE_CXX_ATOMIC - Success
+[8.613s] -- Performing Test HAVE_CXX_ATOMIC_STATIC
+[8.894s] -- Performing Test HAVE_CXX_ATOMIC_STATIC - Success
+[8.894s] -- Checking for C++ 'std::put_time()':
+[8.895s] -- Performing Test HAVE_CXX_STD_PUT_TIME
+[9.457s] -- Performing Test HAVE_CXX_STD_PUT_TIME - Success
+[9.457s] -- STDCXX_SYNC: OFF
+[9.458s] [33mCMake Warning (dev) at CMakeLists.txt:645 (if):
+[9.458s]   Policy CMP0054 is not set: Only interpret if() arguments as variables or
+[9.458s]   keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+[9.458s]   details.  Use the cmake_policy command to set the policy and suppress this
+[9.458s]   warning.
+[9.458s] 
+[9.458s]   Quoted variables like "GNU" will no longer be dereferenced when the policy
+[9.458s]   is set to NEW.  Since the policy is not set the OLD behavior will be used.
+[9.459s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.459s] [0m
+[9.459s] -- MONOTONIC_CLOCK: ON
+[9.459s] -- DETECTED SYSTEM: LINUX;  LINUX=1
+[9.459s] -- ENABLE_BONDING: OFF
+[9.468s] -- APP: srt_virtual: using default C++ standard
+[9.468s] -- ADDING TRANSITIVE LINK DEP to:srt_shared :  
+[9.468s] -- ADDING TRANSITIVE LINK DEP to:srt_static :  
+[9.468s] -- INSTALL DIRS: bin=bin lib=lib shlib=lib include=include
+[9.469s] -- APPS: ENABLED, std=
+[9.471s] -- APP: srtsupport_virtual: using default C++ standard
+[9.471s] -- APP: srt-live-transmit: using default C++ standard
+[9.471s] -- APP: srt-file-transmit: using default C++ standard
+[9.472s] -- APP: srt-tunnel: using default C++ standard
+[9.472s] -- DEVEL APPS (testing): DISABLED
+[9.472s] -- Configuring done
+[9.502s] -- Generating done
+[9.504s] -- Build files have been written to: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor-build
+[9.548s] [ 75%] [34m[1mPerforming build step for 'srt_vendor'[0m
+[9.651s] [  3%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/api.cpp.o[0m
+[9.651s] [  5%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/apputil.cpp.o[0m
+[9.651s] [  5%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/logsupport.cpp.o[0m
+[9.654s] [  7%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/statswriter.cpp.o[0m
+[12.214s] [  8%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_snd.cpp.o[0m
+[12.328s] [ 10%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_rcv.cpp.o[0m
+[13.672s] [ 12%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/logsupport_appdefs.cpp.o[0m
+[14.851s] [ 14%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/socketoptions.cpp.o[0m
+[15.061s] [ 16%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_tools.cpp.o[0m
+[15.870s] [ 17%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/cache.cpp.o[0m
+[16.803s] [ 19%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/transmitmedia.cpp.o[0m
+[17.315s] [ 21%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/uriparser.cpp.o[0m
+[17.485s] [ 23%] [32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/verbose.cpp.o[0m
+[17.842s] [ 25%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/channel.cpp.o[0m
+[18.230s] [ 26%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/common.cpp.o[0m
+[20.331s] [ 28%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/core.cpp.o[0m
+[20.455s] [ 30%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/crypto.cpp.o[0m
+[21.199s] [ 32%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/epoll.cpp.o[0m
+[22.178s] [ 32%] Built target srtsupport_virtual
+[22.207s] [ 33%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/fec.cpp.o[0m
+[24.185s] [ 35%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/handshake.cpp.o[0m
+[24.624s] [ 37%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/list.cpp.o[0m
+[26.588s] [ 39%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/logger_default.cpp.o[0m
+[27.697s] [ 41%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/logger_defs.cpp.o[0m
+[28.180s] [ 42%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/md5.cpp.o[0m
+[28.300s] [ 44%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/packet.cpp.o[0m
+[28.484s] [ 46%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/packetfilter.cpp.o[0m
+[29.359s] [ 48%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/queue.cpp.o[0m
+[30.381s] [ 50%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/congctl.cpp.o[0m
+[31.967s] [ 51%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/socketconfig.cpp.o[0m
+[33.155s] [ 53%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/srt_c_api.cpp.o[0m
+[33.544s] [ 55%] [32mBuilding C object CMakeFiles/srt_virtual.dir/srtcore/srt_compat.c.o[0m
+[33.780s] [ 57%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/strerror_defs.cpp.o[0m
+[33.920s] [ 58%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/sync.cpp.o[0m
+[34.132s] [ 60%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/tsbpd_time.cpp.o[0m
+[35.227s] [ 62%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/window.cpp.o[0m
+[35.383s] [ 64%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/sync_posix.cpp.o[0m
+[36.082s] [ 66%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/cryspr.c.o[0m
+[36.271s] [ 67%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/cryspr-openssl.c.o[0m
+[36.566s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_AES_SetKey[m[K’:
+[36.566s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:51:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_set_encrypt_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+[36.566s]    51 |         [01;35m[Kif[m[K (AES_set_encrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {
+[36.567s]       |         [01;35m[K^~[m[K
+[36.567s] In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+[36.567s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+[36.567s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+[36.567s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+[36.568s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[36.575s] [01m[K/usr/include/openssl/aes.h:51:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.575s]    51 | int [01;36m[KAES_set_encrypt_key[m[K(const unsigned char *userKey, const int bits,
+[36.575s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[36.576s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:56:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_set_decrypt_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+[36.576s]    56 |         [01;35m[Kif[m[K (AES_set_decrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {
+[36.576s]       |         [01;35m[K^~[m[K
+[36.576s] In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+[36.576s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+[36.576s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+[36.576s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+[36.577s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[36.577s] [01m[K/usr/include/openssl/aes.h:54:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.577s]    54 | int [01;36m[KAES_set_decrypt_key[m[K(const unsigned char *userKey, const int bits,
+[36.577s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[36.577s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_AES_CtrCipher[m[K’:
+[36.577s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:127:27:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_encrypt[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+[36.577s]   127 |                           [01;35m[Kinlen[m[K, aes_key, iv, ctr, &blk_ofs, (block128_f) AES_encrypt);
+[36.578s]       |                           [01;35m[K^~~~~[m[K
+[36.578s] In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+[36.578s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+[36.578s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+[36.578s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+[36.578s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[36.578s] [01m[K/usr/include/openssl/aes.h:57:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.579s]    57 | void [01;36m[KAES_encrypt[m[K(const unsigned char *in, unsigned char *out,
+[36.579s]       |      [01;36m[K^~~~~~~~~~~[m[K
+[36.579s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_KmWrap[m[K’:
+[36.579s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:178:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_wrap_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+[36.579s]   178 |     [01;35m[Kreturn[m[K(((seklen + HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_wrap_key(kek, NULL, wrap, sek, seklen)) ? 0 : -1);
+[36.579s]       |     [01;35m[K^~~~~~[m[K
+[36.579s] In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+[36.580s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+[36.580s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+[36.580s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+[36.580s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[36.580s] [01m[K/usr/include/openssl/aes.h:97:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.580s]    97 | int [01;36m[KAES_wrap_key[m[K(AES_KEY *key, const unsigned char *iv,
+[36.580s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[36.581s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_KmUnwrap[m[K’:
+[36.581s] [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:189:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_unwrap_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+[36.581s]   189 |     [01;35m[Kreturn[m[K(((wraplen - HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_unwrap_key(kek, NULL, sek, wrap, wraplen)) ? 0 : -1);
+[36.581s]       |     [01;35m[K^~~~~~[m[K
+[36.581s] In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+[36.581s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+[36.581s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+[36.582s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+[36.582s] [ 69%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt.c.o[0m
+[36.582s]                  from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[36.582s] [01m[K/usr/include/openssl/aes.h:101:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.582s]   101 | int [01;36m[KAES_unwrap_key[m[K(AES_KEY *key, const unsigned char *iv,
+[36.582s]       |     [01;36m[K^~~~~~~~~~~~~~[m[K
+[36.615s] [ 71%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_ctx_rx.c.o[0m
+[36.940s] [ 73%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_ctx_tx.c.o[0m
+[36.973s] [ 75%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_rx.c.o[0m
+[37.310s] [ 76%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_sa.c.o[0m
+[37.378s] [ 78%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_tx.c.o[0m
+[37.422s] [ 80%] [32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_xpt_srt.c.o[0m
+[37.629s] [ 82%] [32mBuilding CXX object CMakeFiles/srt_virtual.dir/haicrypt/haicrypt_log.cpp.o[0m
+[37.752s] [ 82%] Built target srt_virtual
+[37.801s] [ 85%] [32mBuilding C object CMakeFiles/srt_shared.dir/cmake_object_lib_support.c.o[0m
+[37.801s] [ 85%] [32mBuilding C object CMakeFiles/srt_static.dir/cmake_object_lib_support.c.o[0m
+[37.865s] [ 87%] [32m[1mLinking CXX shared library libsrt.so[0m
+[37.870s] [ 89%] [32m[1mLinking CXX static library libsrt.a[0m
+[37.977s] [ 89%] Built target srt_static
+[38.047s] [ 91%] [32mBuilding CXX object CMakeFiles/srt-file-transmit.dir/apps/srt-file-transmit.cpp.o[0m
+[38.047s] [ 92%] [32mBuilding CXX object CMakeFiles/srt-live-transmit.dir/apps/srt-live-transmit.cpp.o[0m
+[38.052s] [ 94%] [32mBuilding CXX object CMakeFiles/srt-tunnel.dir/apps/srt-tunnel.cpp.o[0m
+[38.224s] [ 94%] Built target srt_shared
+[41.592s] [ 96%] [32m[1mLinking CXX executable srt-live-transmit[0m
+[41.881s] [ 96%] Built target srt-live-transmit
+[42.547s] [ 98%] [32m[1mLinking CXX executable srt-file-transmit[0m
+[42.802s] [ 98%] Built target srt-file-transmit
+[43.224s] [100%] [32m[1mLinking CXX executable srt-tunnel[0m
+[43.470s] [100%] Built target srt-tunnel
+[43.526s] [ 87%] [34m[1mPerforming install step for 'srt_vendor'[0m
+[43.598s] [35m[1mConsolidate compiler generated dependencies of target srtsupport_virtual[0m
+[43.607s] [35m[1mConsolidate compiler generated dependencies of target srt_virtual[0m
+[43.637s] [ 14%] Built target srtsupport_virtual
+[43.690s] [ 82%] Built target srt_virtual
+[43.713s] [35m[1mConsolidate compiler generated dependencies of target srt_static[0m
+[43.713s] [35m[1mConsolidate compiler generated dependencies of target srt_shared[0m
+[43.738s] [ 89%] Built target srt_static
+[43.738s] [ 89%] Built target srt_shared
+[43.765s] [35m[1mConsolidate compiler generated dependencies of target srt-live-transmit[0m
+[43.773s] [35m[1mConsolidate compiler generated dependencies of target srt-tunnel[0m
+[43.773s] [35m[1mConsolidate compiler generated dependencies of target srt-file-transmit[0m
+[43.797s] [ 92%] Built target srt-live-transmit
+[43.811s] [ 96%] Built target srt-file-transmit
+[43.812s] [100%] Built target srt-tunnel
+[43.853s] [36mInstall the project...[0m
+[43.870s] -- Install configuration: "Release"
+[43.870s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so.1.5.2
+[43.872s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so.1.5
+[43.872s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so
+[43.872s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.a
+[43.876s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/version.h
+[43.876s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/srt.h
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/logging_api.h
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/access_control.h
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/platform_sys.h
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/udt.h
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/pkgconfig/haisrt.pc
+[43.877s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/pkgconfig/srt.pc
+[43.887s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-live-transmit
+[43.887s] -- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-live-transmit
+[43.887s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-file-transmit
+[43.888s] -- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-file-transmit
+[43.888s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-tunnel
+[43.892s] -- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-tunnel
+[43.892s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-ffplay
+[43.932s] [100%] [34m[1mCompleted 'srt_vendor'[0m
+[44.003s] [100%] Built target srt_vendor
+[44.025s] Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor -- -j4 -l4
+[44.110s] Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor
+[44.126s] -- Install configuration: ""
+[44.127s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor
+[44.127s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib
+[44.127s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so
+[44.127s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so.1.5
+[44.127s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so.1.5.2
+[44.129s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig
+[44.129s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/srt.pc
+[44.129s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/haisrt.pc
+[44.129s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.a
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/version.h
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/logging_api.h
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/udt.h
+[44.133s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/access_control.h
+[44.134s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/srt.h
+[44.134s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/platform_sys.h
+[44.134s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin
+[44.134s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-ffplay
+[44.134s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-file-transmit
+[44.138s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-tunnel
+[44.143s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-live-transmit
+[44.147s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/package_run_dependencies/srt_vendor
+[44.147s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/parent_prefix_path/srt_vendor
+[44.148s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/ament_prefix_path.sh
+[44.148s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/ament_prefix_path.dsv
+[44.148s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/path.sh
+[44.148s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/path.dsv
+[44.149s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.bash
+[44.149s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.sh
+[44.149s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.zsh
+[44.149s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.dsv
+[44.150s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.dsv
+[44.150s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/packages/srt_vendor
+[44.150s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.150s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/srt_vendorConfig.cmake
+[44.151s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/srt_vendorConfig-version.cmake
+[44.151s] -- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.xml
+[44.154s] Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor

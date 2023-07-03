@@ -1,0 +1,10 @@
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/uninstall.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/srt_vendor_uninstall.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/srt_vendor.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/test.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/edit_cache.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/rebuild_cache.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/list_install_components.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/install.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/install/local.dir
+/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/CMakeFiles/install/strip.dir

@@ -1,0 +1,71 @@
+Cloning into 'srt_vendor'...
+HEAD is now at 9448e26 [docs] Minor updates to AEAD docs plus changed v1.6.0 to 1.5.2 in some files
+[33mCMake Warning (dev) at CMakeLists.txt:645 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "GNU" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_AES_SetKey[m[K’:
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:51:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_set_encrypt_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+   51 |         [01;35m[Kif[m[K (AES_set_encrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {
+      |         [01;35m[K^~[m[K
+In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[01m[K/usr/include/openssl/aes.h:51:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | int [01;36m[KAES_set_encrypt_key[m[K(const unsigned char *userKey, const int bits,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:56:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_set_decrypt_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |         [01;35m[Kif[m[K (AES_set_decrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {
+      |         [01;35m[K^~[m[K
+In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[01m[K/usr/include/openssl/aes.h:54:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   54 | int [01;36m[KAES_set_decrypt_key[m[K(const unsigned char *userKey, const int bits,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_AES_CtrCipher[m[K’:
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:127:27:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_encrypt[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+  127 |                           [01;35m[Kinlen[m[K, aes_key, iv, ctr, &blk_ofs, (block128_f) AES_encrypt);
+      |                           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[01m[K/usr/include/openssl/aes.h:57:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   57 | void [01;36m[KAES_encrypt[m[K(const unsigned char *in, unsigned char *out,
+      |      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_KmWrap[m[K’:
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:178:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_wrap_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+  178 |     [01;35m[Kreturn[m[K(((seklen + HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_wrap_key(kek, NULL, wrap, sek, seklen)) ? 0 : -1);
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[01m[K/usr/include/openssl/aes.h:97:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   97 | int [01;36m[KAES_wrap_key[m[K(AES_KEY *key, const unsigned char *iv,
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:[m[K In function ‘[01m[KcrysprOpenSSL_KmUnwrap[m[K’:
+[01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:189:5:[m[K [01;35m[Kwarning: [m[K‘[01m[KAES_unwrap_key[m[K’ is deprecated: Since OpenSSL 3.0 [[01;35m[K-Wdeprecated-declarations[m[K]
+  189 |     [01;35m[Kreturn[m[K(((wraplen - HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_unwrap_key(kek, NULL, sek, wrap, wraplen)) ? 0 : -1);
+      |     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48[m[K,
+                 from [01m[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22[m[K:
+[01m[K/usr/include/openssl/aes.h:101:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  101 | int [01;36m[KAES_unwrap_key[m[K(AES_KEY *key, const unsigned char *iv,
+      |     [01;36m[K^~~~~~~~~~~~~~[m[K

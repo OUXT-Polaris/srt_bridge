@@ -1,0 +1,840 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (srt_vendor) JobQueued: {'identifier': 'srt_vendor', 'dependencies': OrderedDict()}
+[0.000391] (srt_bridge) JobQueued: {'identifier': 'srt_bridge', 'dependencies': OrderedDict([('srt_vendor', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor')])}
+[0.000441] (srt_vendor) JobStarted: {'identifier': 'srt_vendor'}
+[0.024886] (srt_vendor) JobProgress: {'identifier': 'srt_vendor', 'progress': 'cmake'}
+[0.025635] (srt_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor', '-DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor'], 'cwd': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ouxt'), ('SSH_CLIENT', '100.77.194.51 52440 59090'), ('CCACHE_DIR', '/home/ouxt/ouxt_automation/ansible/../robotx_ws/ccache/'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim/lib:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication/lib:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender/lib:/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750/lib:/home/ouxt/ouxt_automation/robotx_ws/install/serial/lib:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers/lib:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/lib:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor/lib:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server/lib:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ouxt'), ('OLDPWD', '/home/ouxt'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6af4d145-22e9-42e4-921d-fe129146b6a6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ouxt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '240'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/ouxt/ouxt_automation/robotx_ws/install/srt/bin:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70ef109516.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.77.194.51 52440 100.81.25.71 59090'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble')]), 'shell': False}
+[0.098600] (-) TimerEvent: {}
+[0.179053] (srt_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.198702] (-) TimerEvent: {}
+[0.299097] (-) TimerEvent: {}
+[0.306542] (srt_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.326174] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399223] (-) TimerEvent: {}
+[0.463411] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.478462] (srt_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/gcc - skipped\n'}
+[0.479243] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.480267] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.486381] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499348] (-) TimerEvent: {}
+[0.599770] (-) TimerEvent: {}
+[0.644016] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.662142] (srt_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped\n'}
+[0.662589] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.663476] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.683905] (srt_vendor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699884] (-) TimerEvent: {}
+[0.800167] (-) TimerEvent: {}
+[0.900511] (-) TimerEvent: {}
+[0.968933] (srt_vendor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.000614] (-) TimerEvent: {}
+[1.101019] (-) TimerEvent: {}
+[1.201903] (-) TimerEvent: {}
+[1.267773] (srt_vendor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301993] (-) TimerEvent: {}
+[1.402347] (-) TimerEvent: {}
+[1.410517] (srt_vendor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.418563] (srt_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.426180] (srt_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[1.428045] (srt_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor\n'}
+[1.438050] (srt_vendor) CommandEnded: {'returncode': 0}
+[1.438710] (srt_vendor) JobProgress: {'identifier': 'srt_vendor', 'progress': 'build'}
+[1.438759] (srt_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor', '--', '-j4', '-l4'], 'cwd': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ouxt'), ('SSH_CLIENT', '100.77.194.51 52440 59090'), ('CCACHE_DIR', '/home/ouxt/ouxt_automation/ansible/../robotx_ws/ccache/'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim/lib:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication/lib:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender/lib:/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750/lib:/home/ouxt/ouxt_automation/robotx_ws/install/serial/lib:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers/lib:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/lib:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor/lib:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server/lib:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ouxt'), ('OLDPWD', '/home/ouxt'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6af4d145-22e9-42e4-921d-fe129146b6a6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ouxt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '240'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/ouxt/ouxt_automation/robotx_ws/install/srt/bin:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70ef109516.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.77.194.51 52440 100.81.25.71 59090'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble')]), 'shell': False}
+[1.502486] (-) TimerEvent: {}
+[1.549066] (srt_vendor) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'srt_vendor'\x1b[0m\n"}
+[1.602623] (-) TimerEvent: {}
+[1.702944] (-) TimerEvent: {}
+[1.704845] (srt_vendor) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'srt_vendor'\x1b[0m\n"}
+[1.746202] (srt_vendor) StderrLine: {'line': b"Cloning into 'srt_vendor'...\n"}
+[1.803080] (-) TimerEvent: {}
+[1.903434] (-) TimerEvent: {}
+[2.003933] (-) TimerEvent: {}
+[2.104600] (-) TimerEvent: {}
+[2.205343] (-) TimerEvent: {}
+[2.306041] (-) TimerEvent: {}
+[2.406701] (-) TimerEvent: {}
+[2.507543] (-) TimerEvent: {}
+[2.608205] (-) TimerEvent: {}
+[2.708960] (-) TimerEvent: {}
+[2.809577] (-) TimerEvent: {}
+[2.910314] (-) TimerEvent: {}
+[3.011035] (-) TimerEvent: {}
+[3.111677] (-) TimerEvent: {}
+[3.212044] (-) TimerEvent: {}
+[3.312408] (-) TimerEvent: {}
+[3.412717] (-) TimerEvent: {}
+[3.513028] (-) TimerEvent: {}
+[3.613469] (-) TimerEvent: {}
+[3.714041] (-) TimerEvent: {}
+[3.814381] (-) TimerEvent: {}
+[3.914942] (-) TimerEvent: {}
+[4.015455] (-) TimerEvent: {}
+[4.116193] (-) TimerEvent: {}
+[4.216557] (-) TimerEvent: {}
+[4.317170] (-) TimerEvent: {}
+[4.417442] (-) TimerEvent: {}
+[4.518229] (-) TimerEvent: {}
+[4.619167] (-) TimerEvent: {}
+[4.719868] (-) TimerEvent: {}
+[4.820170] (-) TimerEvent: {}
+[4.920446] (-) TimerEvent: {}
+[5.020737] (-) TimerEvent: {}
+[5.121026] (-) TimerEvent: {}
+[5.221866] (-) TimerEvent: {}
+[5.322160] (-) TimerEvent: {}
+[5.422446] (-) TimerEvent: {}
+[5.523441] (-) TimerEvent: {}
+[5.623816] (-) TimerEvent: {}
+[5.724474] (-) TimerEvent: {}
+[5.725211] (srt_vendor) StderrLine: {'line': b'HEAD is now at 9448e26 [docs] Minor updates to AEAD docs plus changed v1.6.0 to 1.5.2 in some files\n'}
+[5.824622] (-) TimerEvent: {}
+[5.848405] (srt_vendor) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming update step for 'srt_vendor'\x1b[0m\n"}
+[5.902245] (srt_vendor) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'srt_vendor'\x1b[0m\n"}
+[5.925028] (-) TimerEvent: {}
+[5.956920] (srt_vendor) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'srt_vendor'\x1b[0m\n"}
+[6.025128] (-) TimerEvent: {}
+[6.070857] (srt_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[6.125277] (-) TimerEvent: {}
+[6.175792] (srt_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[6.193592] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.225429] (-) TimerEvent: {}
+[6.309271] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.320241] (srt_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/gcc - skipped\n'}
+[6.320686] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.321325] (srt_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.325526] (-) TimerEvent: {}
+[6.326580] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.425621] (-) TimerEvent: {}
+[6.456236] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.467487] (srt_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped\n'}
+[6.467980] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.468736] (srt_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.479919] (srt_vendor) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.482176] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.525773] (-) TimerEvent: {}
+[6.626062] (-) TimerEvent: {}
+[6.655995] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.656453] (srt_vendor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.726169] (-) TimerEvent: {}
+[6.823882] (srt_vendor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.825245] (srt_vendor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.826273] (-) TimerEvent: {}
+[6.828974] (srt_vendor) StdoutLine: {'line': b'-- BUILD TYPE: Release\n'}
+[6.830092] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CLOCK_GETTIME_IN\n'}
+[6.926387] (-) TimerEvent: {}
+[7.011981] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CLOCK_GETTIME_IN - Success\n'}
+[7.012268] (srt_vendor) StdoutLine: {'line': b'-- CLOCK_MONOTONIC: available, no extra libs needed\n'}
+[7.012504] (srt_vendor) StdoutLine: {'line': b'-- LOGGING: ENABLED\n'}
+[7.012778] (srt_vendor) StdoutLine: {'line': b'-- USE_BUSY_WAITING: OFF (default)\n'}
+[7.012998] (srt_vendor) StdoutLine: {'line': b'-- No WITH_COMPILER_PREFIX - using C++ compiler /usr/lib/ccache/g++\n'}
+[7.013083] (srt_vendor) StdoutLine: {'line': b'-- Looking for inet_pton\n'}
+[7.026523] (-) TimerEvent: {}
+[7.126841] (-) TimerEvent: {}
+[7.130917] (srt_vendor) StdoutLine: {'line': b'-- Looking for inet_pton - found\n'}
+[7.131791] (srt_vendor) StdoutLine: {'line': b"-- Checking for pthread_(g/s)etname_np in 'pthread_np.h':\n"}
+[7.132405] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_getname_np\n'}
+[7.200378] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_getname_np - not found\n'}
+[7.201035] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_setname_np\n'}
+[7.226992] (-) TimerEvent: {}
+[7.268851] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_setname_np - not found\n'}
+[7.269185] (srt_vendor) StdoutLine: {'line': b"-- Checking for pthread_(g/s)etname_np in 'pthread.h':\n"}
+[7.269646] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_getname_np\n'}
+[7.327123] (-) TimerEvent: {}
+[7.427655] (-) TimerEvent: {}
+[7.436260] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_getname_np - found\n'}
+[7.436939] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_setname_np\n'}
+[7.527817] (-) TimerEvent: {}
+[7.602459] (srt_vendor) StdoutLine: {'line': b'-- Looking for pthread_setname_np - found\n'}
+[7.603438] (srt_vendor) StdoutLine: {'line': b"-- Checking for module 'openssl libcrypto'\n"}
+[7.627929] (-) TimerEvent: {}
+[7.632025] (srt_vendor) StdoutLine: {'line': b'--   Found openssl libcrypto, version 3.0.2;3.0.2\n'}
+[7.710084] (srt_vendor) StdoutLine: {'line': b'-- SSL via pkg-config: -L /usr/lib/x86_64-linux-gnu -I  -l;ssl;crypto\n'}
+[7.710411] (srt_vendor) StdoutLine: {'line': b'-- ENCRYPTION: ENABLED, using: openssl libcrypto\n'}
+[7.710569] (srt_vendor) StdoutLine: {'line': b'-- SSL libraries: ssl;crypto\n'}
+[7.710715] (srt_vendor) StdoutLine: {'line': b'-- ENCRYPTION AEAD API: DISABLED\n'}
+[7.710845] (srt_vendor) StdoutLine: {'line': b'-- COMPILER: GNU (/usr/lib/ccache/g++) - GNU compat\n'}
+[7.710974] (srt_vendor) StdoutLine: {'line': b'-- NOTE: GNU 11.3.0 - assuming default C++11.\n'}
+[7.711197] (srt_vendor) StdoutLine: {'line': b'-- Looking for __atomic_fetch_add_8 in atomic\n'}
+[7.728030] (-) TimerEvent: {}
+[7.826866] (srt_vendor) StdoutLine: {'line': b'-- Looking for __atomic_fetch_add_8 in atomic - found\n'}
+[7.827438] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_LIBATOMIC_COMPILES\n'}
+[7.828102] (-) TimerEvent: {}
+[7.928426] (-) TimerEvent: {}
+[7.981868] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_LIBATOMIC_COMPILES - Success\n'}
+[7.982315] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_LIBATOMIC_COMPILES_STATIC\n'}
+[8.028559] (-) TimerEvent: {}
+[8.128825] (-) TimerEvent: {}
+[8.223379] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_LIBATOMIC_COMPILES_STATIC - Success\n'}
+[8.223898] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_GCCATOMIC_INTRINSICS\n'}
+[8.228938] (-) TimerEvent: {}
+[8.329268] (-) TimerEvent: {}
+[8.388674] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_GCCATOMIC_INTRINSICS - Success\n'}
+[8.389555] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_ATOMIC\n'}
+[8.429411] (-) TimerEvent: {}
+[8.529722] (-) TimerEvent: {}
+[8.612696] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_ATOMIC - Success\n'}
+[8.613111] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_ATOMIC_STATIC\n'}
+[8.629840] (-) TimerEvent: {}
+[8.730189] (-) TimerEvent: {}
+[8.830510] (-) TimerEvent: {}
+[8.894258] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_ATOMIC_STATIC - Success\n'}
+[8.894730] (srt_vendor) StdoutLine: {'line': b"-- Checking for C++ 'std::put_time()':\n"}
+[8.894977] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_STD_PUT_TIME\n'}
+[8.930620] (-) TimerEvent: {}
+[9.030973] (-) TimerEvent: {}
+[9.131431] (-) TimerEvent: {}
+[9.231793] (-) TimerEvent: {}
+[9.332112] (-) TimerEvent: {}
+[9.432442] (-) TimerEvent: {}
+[9.457319] (srt_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_STD_PUT_TIME - Success\n'}
+[9.457579] (srt_vendor) StdoutLine: {'line': b'-- STDCXX_SYNC: OFF\n'}
+[9.457891] (srt_vendor) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:645 (if):\n'}
+[9.458076] (srt_vendor) StderrLine: {'line': b'  Policy CMP0054 is not set: Only interpret if() arguments as variables or\n'}
+[9.458212] (srt_vendor) StderrLine: {'line': b'  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy\n'}
+[9.458337] (srt_vendor) StderrLine: {'line': b'  details.  Use the cmake_policy command to set the policy and suppress this\n'}
+[9.458459] (srt_vendor) StderrLine: {'line': b'  warning.\n'}
+[9.458580] (srt_vendor) StderrLine: {'line': b'\n'}
+[9.458701] (srt_vendor) StderrLine: {'line': b'  Quoted variables like "GNU" will no longer be dereferenced when the policy\n'}
+[9.458822] (srt_vendor) StderrLine: {'line': b'  is set to NEW.  Since the policy is not set the OLD behavior will be used.\n'}
+[9.458943] (srt_vendor) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.459069] (srt_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[9.459190] (srt_vendor) StdoutLine: {'line': b'-- MONOTONIC_CLOCK: ON\n'}
+[9.459333] (srt_vendor) StdoutLine: {'line': b'-- DETECTED SYSTEM: LINUX;  LINUX=1\n'}
+[9.459462] (srt_vendor) StdoutLine: {'line': b'-- ENABLE_BONDING: OFF\n'}
+[9.468342] (srt_vendor) StdoutLine: {'line': b'-- APP: srt_virtual: using default C++ standard\n'}
+[9.468710] (srt_vendor) StdoutLine: {'line': b'-- ADDING TRANSITIVE LINK DEP to:srt_shared :  \n'}
+[9.468877] (srt_vendor) StdoutLine: {'line': b'-- ADDING TRANSITIVE LINK DEP to:srt_static :  \n'}
+[9.468973] (srt_vendor) StdoutLine: {'line': b'-- INSTALL DIRS: bin=bin lib=lib shlib=lib include=include\n'}
+[9.469837] (srt_vendor) StdoutLine: {'line': b'-- APPS: ENABLED, std=\n'}
+[9.471256] (srt_vendor) StdoutLine: {'line': b'-- APP: srtsupport_virtual: using default C++ standard\n'}
+[9.471502] (srt_vendor) StdoutLine: {'line': b'-- APP: srt-live-transmit: using default C++ standard\n'}
+[9.471788] (srt_vendor) StdoutLine: {'line': b'-- APP: srt-file-transmit: using default C++ standard\n'}
+[9.472070] (srt_vendor) StdoutLine: {'line': b'-- APP: srt-tunnel: using default C++ standard\n'}
+[9.472218] (srt_vendor) StdoutLine: {'line': b'-- DEVEL APPS (testing): DISABLED\n'}
+[9.472544] (srt_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.502712] (srt_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[9.504293] (srt_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor-build\n'}
+[9.532594] (-) TimerEvent: {}
+[9.548657] (srt_vendor) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'srt_vendor'\x1b[0m\n"}
+[9.634047] (-) TimerEvent: {}
+[9.650975] (srt_vendor) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/api.cpp.o\x1b[0m\n'}
+[9.651298] (srt_vendor) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/apputil.cpp.o\x1b[0m\n'}
+[9.651619] (srt_vendor) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/logsupport.cpp.o\x1b[0m\n'}
+[9.653833] (srt_vendor) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/statswriter.cpp.o\x1b[0m\n'}
+[9.734163] (-) TimerEvent: {}
+[9.834540] (-) TimerEvent: {}
+[9.934868] (-) TimerEvent: {}
+[10.035857] (-) TimerEvent: {}
+[10.136513] (-) TimerEvent: {}
+[10.236909] (-) TimerEvent: {}
+[10.337292] (-) TimerEvent: {}
+[10.437639] (-) TimerEvent: {}
+[10.537978] (-) TimerEvent: {}
+[10.638324] (-) TimerEvent: {}
+[10.740093] (-) TimerEvent: {}
+[10.840461] (-) TimerEvent: {}
+[10.940852] (-) TimerEvent: {}
+[11.041227] (-) TimerEvent: {}
+[11.141600] (-) TimerEvent: {}
+[11.241997] (-) TimerEvent: {}
+[11.342357] (-) TimerEvent: {}
+[11.442729] (-) TimerEvent: {}
+[11.543102] (-) TimerEvent: {}
+[11.643480] (-) TimerEvent: {}
+[11.743850] (-) TimerEvent: {}
+[11.844238] (-) TimerEvent: {}
+[11.944612] (-) TimerEvent: {}
+[12.044988] (-) TimerEvent: {}
+[12.145358] (-) TimerEvent: {}
+[12.213907] (srt_vendor) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_snd.cpp.o\x1b[0m\n'}
+[12.245475] (-) TimerEvent: {}
+[12.327952] (srt_vendor) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_rcv.cpp.o\x1b[0m\n'}
+[12.345582] (-) TimerEvent: {}
+[12.445972] (-) TimerEvent: {}
+[12.546346] (-) TimerEvent: {}
+[12.646708] (-) TimerEvent: {}
+[12.747847] (-) TimerEvent: {}
+[12.848843] (-) TimerEvent: {}
+[12.949845] (-) TimerEvent: {}
+[13.050775] (-) TimerEvent: {}
+[13.151475] (-) TimerEvent: {}
+[13.252424] (-) TimerEvent: {}
+[13.353500] (-) TimerEvent: {}
+[13.454455] (-) TimerEvent: {}
+[13.555409] (-) TimerEvent: {}
+[13.656372] (-) TimerEvent: {}
+[13.672590] (srt_vendor) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/logsupport_appdefs.cpp.o\x1b[0m\n'}
+[13.756487] (-) TimerEvent: {}
+[13.857459] (-) TimerEvent: {}
+[13.958668] (-) TimerEvent: {}
+[14.059151] (-) TimerEvent: {}
+[14.159668] (-) TimerEvent: {}
+[14.260051] (-) TimerEvent: {}
+[14.360404] (-) TimerEvent: {}
+[14.460771] (-) TimerEvent: {}
+[14.561137] (-) TimerEvent: {}
+[14.661498] (-) TimerEvent: {}
+[14.761873] (-) TimerEvent: {}
+[14.851051] (srt_vendor) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/socketoptions.cpp.o\x1b[0m\n'}
+[14.861986] (-) TimerEvent: {}
+[14.962351] (-) TimerEvent: {}
+[15.061702] (srt_vendor) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/buffer_tools.cpp.o\x1b[0m\n'}
+[15.062432] (-) TimerEvent: {}
+[15.163359] (-) TimerEvent: {}
+[15.264268] (-) TimerEvent: {}
+[15.364609] (-) TimerEvent: {}
+[15.465673] (-) TimerEvent: {}
+[15.566039] (-) TimerEvent: {}
+[15.666419] (-) TimerEvent: {}
+[15.766808] (-) TimerEvent: {}
+[15.867189] (-) TimerEvent: {}
+[15.870175] (srt_vendor) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/cache.cpp.o\x1b[0m\n'}
+[15.967514] (-) TimerEvent: {}
+[16.068423] (-) TimerEvent: {}
+[16.169163] (-) TimerEvent: {}
+[16.269888] (-) TimerEvent: {}
+[16.370574] (-) TimerEvent: {}
+[16.471261] (-) TimerEvent: {}
+[16.571984] (-) TimerEvent: {}
+[16.675601] (-) TimerEvent: {}
+[16.778894] (-) TimerEvent: {}
+[16.803503] (srt_vendor) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/transmitmedia.cpp.o\x1b[0m\n'}
+[16.879015] (-) TimerEvent: {}
+[16.980077] (-) TimerEvent: {}
+[17.080429] (-) TimerEvent: {}
+[17.180785] (-) TimerEvent: {}
+[17.281717] (-) TimerEvent: {}
+[17.314967] (srt_vendor) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/uriparser.cpp.o\x1b[0m\n'}
+[17.381824] (-) TimerEvent: {}
+[17.482378] (-) TimerEvent: {}
+[17.485819] (srt_vendor) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/srtsupport_virtual.dir/apps/verbose.cpp.o\x1b[0m\n'}
+[17.582492] (-) TimerEvent: {}
+[17.683167] (-) TimerEvent: {}
+[17.783865] (-) TimerEvent: {}
+[17.842024] (srt_vendor) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/channel.cpp.o\x1b[0m\n'}
+[17.883976] (-) TimerEvent: {}
+[17.984872] (-) TimerEvent: {}
+[18.085592] (-) TimerEvent: {}
+[18.186263] (-) TimerEvent: {}
+[18.230385] (srt_vendor) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/common.cpp.o\x1b[0m\n'}
+[18.286394] (-) TimerEvent: {}
+[18.387042] (-) TimerEvent: {}
+[18.487720] (-) TimerEvent: {}
+[18.588407] (-) TimerEvent: {}
+[18.689391] (-) TimerEvent: {}
+[18.790349] (-) TimerEvent: {}
+[18.891304] (-) TimerEvent: {}
+[18.992283] (-) TimerEvent: {}
+[19.092987] (-) TimerEvent: {}
+[19.193678] (-) TimerEvent: {}
+[19.294404] (-) TimerEvent: {}
+[19.395110] (-) TimerEvent: {}
+[19.495840] (-) TimerEvent: {}
+[19.596523] (-) TimerEvent: {}
+[19.697205] (-) TimerEvent: {}
+[19.797935] (-) TimerEvent: {}
+[19.898337] (-) TimerEvent: {}
+[19.998716] (-) TimerEvent: {}
+[20.099087] (-) TimerEvent: {}
+[20.199507] (-) TimerEvent: {}
+[20.300258] (-) TimerEvent: {}
+[20.331206] (srt_vendor) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/core.cpp.o\x1b[0m\n'}
+[20.400369] (-) TimerEvent: {}
+[20.455712] (srt_vendor) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/crypto.cpp.o\x1b[0m\n'}
+[20.500483] (-) TimerEvent: {}
+[20.600837] (-) TimerEvent: {}
+[20.701258] (-) TimerEvent: {}
+[20.801687] (-) TimerEvent: {}
+[20.902626] (-) TimerEvent: {}
+[21.003621] (-) TimerEvent: {}
+[21.104274] (-) TimerEvent: {}
+[21.199198] (srt_vendor) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/epoll.cpp.o\x1b[0m\n'}
+[21.204419] (-) TimerEvent: {}
+[21.304788] (-) TimerEvent: {}
+[21.405166] (-) TimerEvent: {}
+[21.505556] (-) TimerEvent: {}
+[21.605935] (-) TimerEvent: {}
+[21.706293] (-) TimerEvent: {}
+[21.806677] (-) TimerEvent: {}
+[21.907079] (-) TimerEvent: {}
+[22.007468] (-) TimerEvent: {}
+[22.107843] (-) TimerEvent: {}
+[22.178663] (srt_vendor) StdoutLine: {'line': b'[ 32%] Built target srtsupport_virtual\n'}
+[22.207507] (srt_vendor) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/fec.cpp.o\x1b[0m\n'}
+[22.207902] (-) TimerEvent: {}
+[22.308588] (-) TimerEvent: {}
+[22.409291] (-) TimerEvent: {}
+[22.510041] (-) TimerEvent: {}
+[22.610774] (-) TimerEvent: {}
+[22.711449] (-) TimerEvent: {}
+[22.812166] (-) TimerEvent: {}
+[22.912853] (-) TimerEvent: {}
+[23.013530] (-) TimerEvent: {}
+[23.114218] (-) TimerEvent: {}
+[23.214978] (-) TimerEvent: {}
+[23.315765] (-) TimerEvent: {}
+[23.416135] (-) TimerEvent: {}
+[23.516538] (-) TimerEvent: {}
+[23.616915] (-) TimerEvent: {}
+[23.717295] (-) TimerEvent: {}
+[23.817687] (-) TimerEvent: {}
+[23.918058] (-) TimerEvent: {}
+[24.018441] (-) TimerEvent: {}
+[24.118834] (-) TimerEvent: {}
+[24.185744] (srt_vendor) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/handshake.cpp.o\x1b[0m\n'}
+[24.218957] (-) TimerEvent: {}
+[24.319340] (-) TimerEvent: {}
+[24.419713] (-) TimerEvent: {}
+[24.520077] (-) TimerEvent: {}
+[24.620436] (-) TimerEvent: {}
+[24.624230] (srt_vendor) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/list.cpp.o\x1b[0m\n'}
+[24.720550] (-) TimerEvent: {}
+[24.821255] (-) TimerEvent: {}
+[24.921932] (-) TimerEvent: {}
+[25.022739] (-) TimerEvent: {}
+[25.123427] (-) TimerEvent: {}
+[25.224128] (-) TimerEvent: {}
+[25.324527] (-) TimerEvent: {}
+[25.424888] (-) TimerEvent: {}
+[25.525287] (-) TimerEvent: {}
+[25.625657] (-) TimerEvent: {}
+[25.726002] (-) TimerEvent: {}
+[25.826391] (-) TimerEvent: {}
+[25.926768] (-) TimerEvent: {}
+[26.027502] (-) TimerEvent: {}
+[26.130261] (-) TimerEvent: {}
+[26.230986] (-) TimerEvent: {}
+[26.331731] (-) TimerEvent: {}
+[26.432436] (-) TimerEvent: {}
+[26.533534] (-) TimerEvent: {}
+[26.588540] (srt_vendor) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/logger_default.cpp.o\x1b[0m\n'}
+[26.633651] (-) TimerEvent: {}
+[26.734354] (-) TimerEvent: {}
+[26.835026] (-) TimerEvent: {}
+[26.935361] (-) TimerEvent: {}
+[27.035712] (-) TimerEvent: {}
+[27.136067] (-) TimerEvent: {}
+[27.236417] (-) TimerEvent: {}
+[27.336799] (-) TimerEvent: {}
+[27.437186] (-) TimerEvent: {}
+[27.537557] (-) TimerEvent: {}
+[27.638056] (-) TimerEvent: {}
+[27.697681] (srt_vendor) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/logger_defs.cpp.o\x1b[0m\n'}
+[27.738189] (-) TimerEvent: {}
+[27.838952] (-) TimerEvent: {}
+[27.939636] (-) TimerEvent: {}
+[28.040452] (-) TimerEvent: {}
+[28.141167] (-) TimerEvent: {}
+[28.180058] (srt_vendor) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/md5.cpp.o\x1b[0m\n'}
+[28.241285] (-) TimerEvent: {}
+[28.300488] (srt_vendor) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/packet.cpp.o\x1b[0m\n'}
+[28.341408] (-) TimerEvent: {}
+[28.441786] (-) TimerEvent: {}
+[28.483980] (srt_vendor) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/packetfilter.cpp.o\x1b[0m\n'}
+[28.541891] (-) TimerEvent: {}
+[28.642253] (-) TimerEvent: {}
+[28.742597] (-) TimerEvent: {}
+[28.842980] (-) TimerEvent: {}
+[28.943356] (-) TimerEvent: {}
+[29.043733] (-) TimerEvent: {}
+[29.144118] (-) TimerEvent: {}
+[29.244507] (-) TimerEvent: {}
+[29.344937] (-) TimerEvent: {}
+[29.359392] (srt_vendor) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/queue.cpp.o\x1b[0m\n'}
+[29.445063] (-) TimerEvent: {}
+[29.545477] (-) TimerEvent: {}
+[29.645845] (-) TimerEvent: {}
+[29.746226] (-) TimerEvent: {}
+[29.846596] (-) TimerEvent: {}
+[29.946960] (-) TimerEvent: {}
+[30.047340] (-) TimerEvent: {}
+[30.147676] (-) TimerEvent: {}
+[30.248034] (-) TimerEvent: {}
+[30.348388] (-) TimerEvent: {}
+[30.381310] (srt_vendor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/congctl.cpp.o\x1b[0m\n'}
+[30.448495] (-) TimerEvent: {}
+[30.549165] (-) TimerEvent: {}
+[30.649827] (-) TimerEvent: {}
+[30.750214] (-) TimerEvent: {}
+[30.852088] (-) TimerEvent: {}
+[30.953308] (-) TimerEvent: {}
+[31.053979] (-) TimerEvent: {}
+[31.154695] (-) TimerEvent: {}
+[31.255411] (-) TimerEvent: {}
+[31.355815] (-) TimerEvent: {}
+[31.456194] (-) TimerEvent: {}
+[31.556601] (-) TimerEvent: {}
+[31.656985] (-) TimerEvent: {}
+[31.757350] (-) TimerEvent: {}
+[31.857741] (-) TimerEvent: {}
+[31.958133] (-) TimerEvent: {}
+[31.967270] (srt_vendor) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/socketconfig.cpp.o\x1b[0m\n'}
+[32.058252] (-) TimerEvent: {}
+[32.158956] (-) TimerEvent: {}
+[32.259655] (-) TimerEvent: {}
+[32.360057] (-) TimerEvent: {}
+[32.460797] (-) TimerEvent: {}
+[32.561484] (-) TimerEvent: {}
+[32.662196] (-) TimerEvent: {}
+[32.762896] (-) TimerEvent: {}
+[32.863668] (-) TimerEvent: {}
+[32.964390] (-) TimerEvent: {}
+[33.065132] (-) TimerEvent: {}
+[33.155334] (srt_vendor) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/srt_c_api.cpp.o\x1b[0m\n'}
+[33.165251] (-) TimerEvent: {}
+[33.266018] (-) TimerEvent: {}
+[33.367138] (-) TimerEvent: {}
+[33.468250] (-) TimerEvent: {}
+[33.543926] (srt_vendor) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/srtcore/srt_compat.c.o\x1b[0m\n'}
+[33.568364] (-) TimerEvent: {}
+[33.669343] (-) TimerEvent: {}
+[33.770335] (-) TimerEvent: {}
+[33.780463] (srt_vendor) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/strerror_defs.cpp.o\x1b[0m\n'}
+[33.870450] (-) TimerEvent: {}
+[33.920391] (srt_vendor) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/sync.cpp.o\x1b[0m\n'}
+[33.970563] (-) TimerEvent: {}
+[34.071608] (-) TimerEvent: {}
+[34.132021] (srt_vendor) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/tsbpd_time.cpp.o\x1b[0m\n'}
+[34.171727] (-) TimerEvent: {}
+[34.272731] (-) TimerEvent: {}
+[34.373771] (-) TimerEvent: {}
+[34.474651] (-) TimerEvent: {}
+[34.575644] (-) TimerEvent: {}
+[34.676583] (-) TimerEvent: {}
+[34.777550] (-) TimerEvent: {}
+[34.878526] (-) TimerEvent: {}
+[34.979492] (-) TimerEvent: {}
+[35.080409] (-) TimerEvent: {}
+[35.181107] (-) TimerEvent: {}
+[35.226923] (srt_vendor) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/window.cpp.o\x1b[0m\n'}
+[35.281228] (-) TimerEvent: {}
+[35.381940] (-) TimerEvent: {}
+[35.382852] (srt_vendor) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/srtcore/sync_posix.cpp.o\x1b[0m\n'}
+[35.482387] (-) TimerEvent: {}
+[35.583321] (-) TimerEvent: {}
+[35.684399] (-) TimerEvent: {}
+[35.785278] (-) TimerEvent: {}
+[35.886279] (-) TimerEvent: {}
+[35.987356] (-) TimerEvent: {}
+[36.082016] (srt_vendor) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/cryspr.c.o\x1b[0m\n'}
+[36.087471] (-) TimerEvent: {}
+[36.196236] (-) TimerEvent: {}
+[36.271771] (srt_vendor) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/cryspr-openssl.c.o\x1b[0m\n'}
+[36.296356] (-) TimerEvent: {}
+[36.397393] (-) TimerEvent: {}
+[36.498439] (-) TimerEvent: {}
+[36.566079] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcrysprOpenSSL_AES_SetKey\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.566457] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:51:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAES_set_encrypt_key\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Since OpenSSL 3.0 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[36.566705] (srt_vendor) StderrLine: {'line': b'   51 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (AES_set_encrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {\n'}
+[36.566929] (srt_vendor) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[36.567344] (srt_vendor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24\x1b[m\x1b[K,\n'}
+[36.567512] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9\x1b[m\x1b[K,\n'}
+[36.567654] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39\x1b[m\x1b[K,\n'}
+[36.567800] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48\x1b[m\x1b[K,\n'}
+[36.567935] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22\x1b[m\x1b[K:\n'}
+[36.575140] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/openssl/aes.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[36.575592] (srt_vendor) StderrLine: {'line': b'   51 | int \x1b[01;36m\x1b[KAES_set_encrypt_key\x1b[m\x1b[K(const unsigned char *userKey, const int bits,\n'}
+[36.575765] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.575921] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:56:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAES_set_decrypt_key\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Since OpenSSL 3.0 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[36.576073] (srt_vendor) StderrLine: {'line': b'   56 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (AES_set_decrypt_key(kstr, (int)(kstr_len * 8), aes_key)) {\n'}
+[36.576205] (srt_vendor) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[36.576340] (srt_vendor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24\x1b[m\x1b[K,\n'}
+[36.576480] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9\x1b[m\x1b[K,\n'}
+[36.576624] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39\x1b[m\x1b[K,\n'}
+[36.576782] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48\x1b[m\x1b[K,\n'}
+[36.576932] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22\x1b[m\x1b[K:\n'}
+[36.577087] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/openssl/aes.h:54:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[36.577232] (srt_vendor) StderrLine: {'line': b'   54 | int \x1b[01;36m\x1b[KAES_set_decrypt_key\x1b[m\x1b[K(const unsigned char *userKey, const int bits,\n'}
+[36.577371] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.577514] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcrysprOpenSSL_AES_CtrCipher\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.577673] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:127:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAES_encrypt\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Since OpenSSL 3.0 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[36.577834] (srt_vendor) StderrLine: {'line': b'  127 |                           \x1b[01;35m\x1b[Kinlen\x1b[m\x1b[K, aes_key, iv, ctr, &blk_ofs, (block128_f) AES_encrypt);\n'}
+[36.577978] (srt_vendor) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[36.578118] (srt_vendor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24\x1b[m\x1b[K,\n'}
+[36.578255] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9\x1b[m\x1b[K,\n'}
+[36.578396] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39\x1b[m\x1b[K,\n'}
+[36.578538] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48\x1b[m\x1b[K,\n'}
+[36.578680] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22\x1b[m\x1b[K:\n'}
+[36.578821] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/openssl/aes.h:57:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[36.578962] (srt_vendor) StderrLine: {'line': b'   57 | void \x1b[01;36m\x1b[KAES_encrypt\x1b[m\x1b[K(const unsigned char *in, unsigned char *out,\n'}
+[36.579111] (srt_vendor) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.579252] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcrysprOpenSSL_KmWrap\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.579411] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:178:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAES_wrap_key\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Since OpenSSL 3.0 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[36.579572] (srt_vendor) StderrLine: {'line': b'  178 |     \x1b[01;35m\x1b[Kreturn\x1b[m\x1b[K(((seklen + HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_wrap_key(kek, NULL, wrap, sek, seklen)) ? 0 : -1);\n'}
+[36.579714] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[36.579858] (srt_vendor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24\x1b[m\x1b[K,\n'}
+[36.579997] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9\x1b[m\x1b[K,\n'}
+[36.580140] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39\x1b[m\x1b[K,\n'}
+[36.580288] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48\x1b[m\x1b[K,\n'}
+[36.580431] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22\x1b[m\x1b[K:\n'}
+[36.580569] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/openssl/aes.h:97:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[36.580710] (srt_vendor) StderrLine: {'line': b'   97 | int \x1b[01;36m\x1b[KAES_wrap_key\x1b[m\x1b[K(AES_KEY *key, const unsigned char *iv,\n'}
+[36.580849] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.580985] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KcrysprOpenSSL_KmUnwrap\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[36.581129] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:189:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAES_unwrap_key\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Since OpenSSL 3.0 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[36.581275] (srt_vendor) StderrLine: {'line': b'  189 |     \x1b[01;35m\x1b[Kreturn\x1b[m\x1b[K(((wraplen - HAICRYPT_WRAPKEY_SIGN_SZ) == (unsigned int)AES_unwrap_key(kek, NULL, sek, wrap, wraplen)) ? 0 : -1);\n'}
+[36.581415] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[36.581556] (srt_vendor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.h:24\x1b[m\x1b[K,\n'}
+[36.581714] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-config.h:9\x1b[m\x1b[K,\n'}
+[36.581864] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr.h:39\x1b[m\x1b[K,\n'}
+[36.582006] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/hcrypt.h:48\x1b[m\x1b[K,\n'}
+[36.582160] (srt_vendor) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt.c.o\x1b[0m\n'}
+[36.582316] (srt_vendor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor-prefix/src/srt_vendor/haicrypt/cryspr-openssl.c:22\x1b[m\x1b[K:\n'}
+[36.582460] (srt_vendor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/openssl/aes.h:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[36.582598] (srt_vendor) StderrLine: {'line': b'  101 | int \x1b[01;36m\x1b[KAES_unwrap_key\x1b[m\x1b[K(AES_KEY *key, const unsigned char *iv,\n'}
+[36.582733] (srt_vendor) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.598545] (-) TimerEvent: {}
+[36.614851] (srt_vendor) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_ctx_rx.c.o\x1b[0m\n'}
+[36.698662] (-) TimerEvent: {}
+[36.799020] (-) TimerEvent: {}
+[36.905515] (-) TimerEvent: {}
+[36.940627] (srt_vendor) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_ctx_tx.c.o\x1b[0m\n'}
+[36.973125] (srt_vendor) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_rx.c.o\x1b[0m\n'}
+[37.005628] (-) TimerEvent: {}
+[37.106605] (-) TimerEvent: {}
+[37.206998] (-) TimerEvent: {}
+[37.307359] (-) TimerEvent: {}
+[37.310834] (srt_vendor) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_sa.c.o\x1b[0m\n'}
+[37.377976] (srt_vendor) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_tx.c.o\x1b[0m\n'}
+[37.407465] (-) TimerEvent: {}
+[37.421927] (srt_vendor) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/srt_virtual.dir/haicrypt/hcrypt_xpt_srt.c.o\x1b[0m\n'}
+[37.507578] (-) TimerEvent: {}
+[37.608246] (-) TimerEvent: {}
+[37.629618] (srt_vendor) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/srt_virtual.dir/haicrypt/haicrypt_log.cpp.o\x1b[0m\n'}
+[37.708353] (-) TimerEvent: {}
+[37.752234] (srt_vendor) StdoutLine: {'line': b'[ 82%] Built target srt_virtual\n'}
+[37.801014] (srt_vendor) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/srt_shared.dir/cmake_object_lib_support.c.o\x1b[0m\n'}
+[37.801283] (srt_vendor) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/srt_static.dir/cmake_object_lib_support.c.o\x1b[0m\n'}
+[37.808469] (-) TimerEvent: {}
+[37.865328] (srt_vendor) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libsrt.so\x1b[0m\n'}
+[37.869910] (srt_vendor) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX static library libsrt.a\x1b[0m\n'}
+[37.908587] (-) TimerEvent: {}
+[37.976956] (srt_vendor) StdoutLine: {'line': b'[ 89%] Built target srt_static\n'}
+[38.008717] (-) TimerEvent: {}
+[38.047138] (srt_vendor) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/srt-file-transmit.dir/apps/srt-file-transmit.cpp.o\x1b[0m\n'}
+[38.047512] (srt_vendor) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/srt-live-transmit.dir/apps/srt-live-transmit.cpp.o\x1b[0m\n'}
+[38.052800] (srt_vendor) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/srt-tunnel.dir/apps/srt-tunnel.cpp.o\x1b[0m\n'}
+[38.108830] (-) TimerEvent: {}
+[38.209488] (-) TimerEvent: {}
+[38.224041] (srt_vendor) StdoutLine: {'line': b'[ 94%] Built target srt_shared\n'}
+[38.309593] (-) TimerEvent: {}
+[38.410509] (-) TimerEvent: {}
+[38.511211] (-) TimerEvent: {}
+[38.612350] (-) TimerEvent: {}
+[38.713288] (-) TimerEvent: {}
+[38.814112] (-) TimerEvent: {}
+[38.914981] (-) TimerEvent: {}
+[39.015351] (-) TimerEvent: {}
+[39.115718] (-) TimerEvent: {}
+[39.216093] (-) TimerEvent: {}
+[39.316462] (-) TimerEvent: {}
+[39.416853] (-) TimerEvent: {}
+[39.517612] (-) TimerEvent: {}
+[39.617993] (-) TimerEvent: {}
+[39.718367] (-) TimerEvent: {}
+[39.818756] (-) TimerEvent: {}
+[39.919132] (-) TimerEvent: {}
+[40.019536] (-) TimerEvent: {}
+[40.119908] (-) TimerEvent: {}
+[40.220310] (-) TimerEvent: {}
+[40.320687] (-) TimerEvent: {}
+[40.421073] (-) TimerEvent: {}
+[40.521463] (-) TimerEvent: {}
+[40.622502] (-) TimerEvent: {}
+[40.723439] (-) TimerEvent: {}
+[40.824191] (-) TimerEvent: {}
+[40.924583] (-) TimerEvent: {}
+[41.024959] (-) TimerEvent: {}
+[41.125692] (-) TimerEvent: {}
+[41.226567] (-) TimerEvent: {}
+[41.326918] (-) TimerEvent: {}
+[41.427303] (-) TimerEvent: {}
+[41.528054] (-) TimerEvent: {}
+[41.592778] (srt_vendor) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable srt-live-transmit\x1b[0m\n'}
+[41.628172] (-) TimerEvent: {}
+[41.729272] (-) TimerEvent: {}
+[41.829680] (-) TimerEvent: {}
+[41.881479] (srt_vendor) StdoutLine: {'line': b'[ 96%] Built target srt-live-transmit\n'}
+[41.929833] (-) TimerEvent: {}
+[42.030147] (-) TimerEvent: {}
+[42.131508] (-) TimerEvent: {}
+[42.231889] (-) TimerEvent: {}
+[42.332253] (-) TimerEvent: {}
+[42.432656] (-) TimerEvent: {}
+[42.532998] (-) TimerEvent: {}
+[42.547839] (srt_vendor) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable srt-file-transmit\x1b[0m\n'}
+[42.633127] (-) TimerEvent: {}
+[42.733889] (-) TimerEvent: {}
+[42.802066] (srt_vendor) StdoutLine: {'line': b'[ 98%] Built target srt-file-transmit\n'}
+[42.833996] (-) TimerEvent: {}
+[42.934360] (-) TimerEvent: {}
+[43.034742] (-) TimerEvent: {}
+[43.135150] (-) TimerEvent: {}
+[43.223971] (srt_vendor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable srt-tunnel\x1b[0m\n'}
+[43.235317] (-) TimerEvent: {}
+[43.335654] (-) TimerEvent: {}
+[43.436064] (-) TimerEvent: {}
+[43.470029] (srt_vendor) StdoutLine: {'line': b'[100%] Built target srt-tunnel\n'}
+[43.525918] (srt_vendor) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming install step for 'srt_vendor'\x1b[0m\n"}
+[43.536221] (-) TimerEvent: {}
+[43.598440] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srtsupport_virtual\x1b[0m\n'}
+[43.607581] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt_virtual\x1b[0m\n'}
+[43.636334] (-) TimerEvent: {}
+[43.637540] (srt_vendor) StdoutLine: {'line': b'[ 14%] Built target srtsupport_virtual\n'}
+[43.689862] (srt_vendor) StdoutLine: {'line': b'[ 82%] Built target srt_virtual\n'}
+[43.713427] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt_static\x1b[0m\n'}
+[43.713779] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt_shared\x1b[0m\n'}
+[43.736443] (-) TimerEvent: {}
+[43.737895] (srt_vendor) StdoutLine: {'line': b'[ 89%] Built target srt_static\n'}
+[43.738162] (srt_vendor) StdoutLine: {'line': b'[ 89%] Built target srt_shared\n'}
+[43.765488] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt-live-transmit\x1b[0m\n'}
+[43.773339] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt-tunnel\x1b[0m\n'}
+[43.773663] (srt_vendor) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srt-file-transmit\x1b[0m\n'}
+[43.797625] (srt_vendor) StdoutLine: {'line': b'[ 92%] Built target srt-live-transmit\n'}
+[43.811539] (srt_vendor) StdoutLine: {'line': b'[ 96%] Built target srt-file-transmit\n'}
+[43.811967] (srt_vendor) StdoutLine: {'line': b'[100%] Built target srt-tunnel\n'}
+[43.836586] (-) TimerEvent: {}
+[43.852980] (srt_vendor) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[43.869813] (srt_vendor) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[43.870375] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so.1.5.2\n'}
+[43.872295] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so.1.5\n'}
+[43.872602] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.so\n'}
+[43.872859] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/libsrt.a\n'}
+[43.876461] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/version.h\n'}
+[43.876646] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/srt.h\n'}
+[43.876951] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/logging_api.h\n'}
+[43.877174] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/access_control.h\n'}
+[43.877372] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/platform_sys.h\n'}
+[43.877456] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/include/srt/udt.h\n'}
+[43.877654] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/pkgconfig/haisrt.pc\n'}
+[43.877809] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/lib/pkgconfig/srt.pc\n'}
+[43.887423] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-live-transmit\n'}
+[43.887664] (srt_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-live-transmit\n'}
+[43.887843] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-file-transmit\n'}
+[43.887965] (srt_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-file-transmit\n'}
+[43.888085] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-tunnel\n'}
+[43.892379] (srt_vendor) StdoutLine: {'line': b'-- Up-to-date: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-tunnel\n'}
+[43.892571] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor/srt_vendor_install/bin/srt-ffplay\n'}
+[43.932074] (srt_vendor) StdoutLine: {'line': b"[100%] \x1b[34m\x1b[1mCompleted 'srt_vendor'\x1b[0m\n"}
+[43.936706] (-) TimerEvent: {}
+[44.003193] (srt_vendor) StdoutLine: {'line': b'[100%] Built target srt_vendor\n'}
+[44.025148] (srt_vendor) CommandEnded: {'returncode': 0}
+[44.036836] (-) TimerEvent: {}
+[44.091574] (srt_vendor) JobProgress: {'identifier': 'srt_vendor', 'progress': 'install'}
+[44.110058] (srt_vendor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor'], 'cwd': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ouxt'), ('SSH_CLIENT', '100.77.194.51 52440 59090'), ('CCACHE_DIR', '/home/ouxt/ouxt_automation/ansible/../robotx_ws/ccache/'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim/lib:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication/lib:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender/lib:/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750/lib:/home/ouxt/ouxt_automation/robotx_ws/install/serial/lib:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers/lib:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/lib:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor/lib:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server/lib:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ouxt'), ('OLDPWD', '/home/ouxt'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6af4d145-22e9-42e4-921d-fe129146b6a6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ouxt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '240'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/ouxt/ouxt_automation/robotx_ws/install/srt/bin:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70ef109516.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.77.194.51 52440 100.81.25.71 59090'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble')]), 'shell': False}
+[44.126070] (srt_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.126967] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor\n'}
+[44.127152] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib\n'}
+[44.127377] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so\n'}
+[44.127559] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so.1.5\n'}
+[44.127734] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.so.1.5.2\n'}
+[44.128904] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig\n'}
+[44.129105] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/srt.pc\n'}
+[44.129284] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/haisrt.pc\n'}
+[44.129405] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/libsrt.a\n'}
+[44.132863] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include\n'}
+[44.133103] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt\n'}
+[44.133302] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/version.h\n'}
+[44.133493] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/logging_api.h\n'}
+[44.133663] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/udt.h\n'}
+[44.133866] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/access_control.h\n'}
+[44.134008] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/srt.h\n'}
+[44.134179] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/include/srt/platform_sys.h\n'}
+[44.134354] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin\n'}
+[44.134542] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-ffplay\n'}
+[44.134710] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-file-transmit\n'}
+[44.136898] (-) TimerEvent: {}
+[44.138708] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-tunnel\n'}
+[44.142954] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin/srt-live-transmit\n'}
+[44.147306] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/package_run_dependencies/srt_vendor\n'}
+[44.147668] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/parent_prefix_path/srt_vendor\n'}
+[44.148026] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/ament_prefix_path.sh\n'}
+[44.148311] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/ament_prefix_path.dsv\n'}
+[44.148526] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/path.sh\n'}
+[44.148755] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/environment/path.dsv\n'}
+[44.148994] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.bash\n'}
+[44.149235] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.sh\n'}
+[44.149505] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.zsh\n'}
+[44.149738] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/local_setup.dsv\n'}
+[44.149968] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.dsv\n'}
+[44.150280] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/ament_index/resource_index/packages/srt_vendor\n'}
+[44.150556] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.150763] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/srt_vendorConfig.cmake\n'}
+[44.150946] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/cmake/srt_vendorConfig-version.cmake\n'}
+[44.151155] (srt_vendor) StdoutLine: {'line': b'-- Installing: /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.xml\n'}
+[44.153688] (srt_vendor) CommandEnded: {'returncode': 0}
+[44.237043] (-) TimerEvent: {}
+[44.280579] (srt_vendor) JobEnded: {'identifier': 'srt_vendor', 'rc': 0}
+[44.284480] (srt_bridge) JobStarted: {'identifier': 'srt_bridge'}
+[44.306127] (srt_bridge) JobProgress: {'identifier': 'srt_bridge', 'progress': 'cmake'}
+[44.307204] (srt_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge', '-DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge'], 'cwd': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ouxt'), ('SSH_CLIENT', '100.77.194.51 52440 59090'), ('CCACHE_DIR', '/home/ouxt/ouxt_automation/ansible/../robotx_ws/ccache/'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib:/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim/lib:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication/lib:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control/lib:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender/lib:/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750/lib:/home/ouxt/ouxt_automation/robotx_ws/install/serial/lib:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers/lib:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/lib:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree/lib:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps/lib:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver/lib:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor/lib:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server/lib:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner/lib:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/lib:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/lib:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface/lib:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ouxt'), ('OLDPWD', '/home/ouxt'), ('TERM_PROGRAM_VERSION', '1.79.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6af4d145-22e9-42e4-921d-fe129146b6a6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ouxt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ouxt/ouxt_automation/robotx_ws/install/srt/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '240'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin:/home/ouxt/.vscode-server/bin/695af097c7bd098fbf017ce3ac85e09bbc5dda06/bin/remote-cli:/home/ouxt/ouxt_automation/robotx_ws/install/srt/bin:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-70ef109516.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CXX', '/usr/lib/ccache/g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.77.194.51 52440 100.81.25.71 59090'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy/local/lib/python3.10/dist-packages:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CC', '/usr/lib/ccache/gcc'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble')]), 'shell': False}
+[44.337159] (-) TimerEvent: {}
+[44.416027] (srt_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[44.437261] (-) TimerEvent: {}
+[44.513951] (srt_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[44.531713] (srt_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[44.537376] (-) TimerEvent: {}
+[44.638318] (-) TimerEvent: {}
+[44.663188] (srt_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[44.678297] (srt_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/gcc - skipped\n'}
+[44.678707] (srt_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[44.679351] (srt_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[44.684211] (srt_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[44.738434] (-) TimerEvent: {}
+[44.838867] (-) TimerEvent: {}
+[44.854508] (srt_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[44.872849] (srt_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped\n'}
+[44.873461] (srt_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[44.874552] (srt_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[44.902746] (srt_bridge) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.4 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[44.939007] (-) TimerEvent: {}
+[45.039269] (-) TimerEvent: {}
+[45.139566] (-) TimerEvent: {}
+[45.199078] (srt_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[45.239717] (-) TimerEvent: {}
+[45.339982] (-) TimerEvent: {}
+[45.440324] (-) TimerEvent: {}
+[45.540711] (-) TimerEvent: {}
+[45.641098] (-) TimerEvent: {}
+[45.735785] (srt_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[45.741168] (-) TimerEvent: {}
+[45.763698] (srt_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[45.797258] (srt_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[45.841325] (-) TimerEvent: {}
+[45.841995] (srt_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[45.902195] (srt_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[45.941470] (-) TimerEvent: {}
+[46.041787] (-) TimerEvent: {}
+[46.108809] (srt_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[46.125223] (srt_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[46.141907] (-) TimerEvent: {}
+[46.242205] (-) TimerEvent: {}
+[46.342471] (-) TimerEvent: {}
+[46.378367] (srt_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[46.430709] (srt_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[46.442550] (-) TimerEvent: {}
+[46.520885] (srt_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[46.542665] (-) TimerEvent: {}
+[46.567052] (srt_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[46.642772] (-) TimerEvent: {}
+[46.743134] (-) TimerEvent: {}
+[46.755404] (srt_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[46.755912] (srt_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[46.843253] (-) TimerEvent: {}
+[46.936553] (srt_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[46.938719] (srt_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[46.943513] (-) TimerEvent: {}
+[47.043890] (-) TimerEvent: {}
+[47.144268] (-) TimerEvent: {}
+[47.244595] (-) TimerEvent: {}
+[47.344953] (-) TimerEvent: {}
+[47.409250] (srt_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (ament_auo_add_library):\n'}
+[47.409532] (srt_bridge) StderrLine: {'line': b'  Unknown CMake command "ament_auo_add_library".\n'}
+[47.409664] (srt_bridge) StderrLine: {'line': b'\n'}
+[47.409781] (srt_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[47.409899] (srt_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[47.410021] (srt_bridge) StdoutLine: {'line': b'See also "/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[47.420923] (srt_bridge) CommandEnded: {'returncode': 1}
+[47.446763] (-) TimerEvent: {}
+[47.453512] (srt_bridge) JobEnded: {'identifier': 'srt_bridge', 'rc': 1}
+[47.464122] (-) EventReactorShutdown: {}

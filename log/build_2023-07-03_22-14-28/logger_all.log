@@ -1,0 +1,192 @@
+[0.468s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'srt_bridge']
+[0.469s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['srt_bridge'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f82f0bcab60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f82f139ceb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f82f139ceb0>>)
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.519s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(srt_bridge) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'srt_bridge' with type 'ros.ament_cmake' and name 'srt_bridge'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(srt_vendor) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'srt_vendor' with type 'ros.ament_cmake' and name 'srt_vendor'
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.586s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 53 installed packages in /home/ouxt/ouxt_automation/robotx_ws/install
+[0.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/humble
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'srt_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'srt_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor', 'merge_install': False, 'path': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor', 'symlink_install': False, 'test_result_base': None}
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_target' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'srt_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'srt_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge', 'merge_install': False, 'path': '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.685s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.689s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.689s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor' with build type 'ament_cmake'
+[0.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor'
+[0.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_vendor -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor -- -j4 -l4
+[44.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor -- -j4 -l4
+[44.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor
+[44.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srt_vendor)
+[44.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_vendor
+[44.852s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor' for CMake module files
+[44.853s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor' for CMake config files
+[44.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'cmake_prefix_path')
+[44.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.ps1'
+[44.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.dsv'
+[44.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.sh'
+[44.859s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib'
+[44.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'ld_library_path_lib')
+[44.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.ps1'
+[44.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.dsv'
+[44.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.sh'
+[44.862s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin'
+[44.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'path')
+[44.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.ps1'
+[44.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.dsv'
+[44.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.sh'
+[44.866s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/srt_vendor.pc'
+[44.866s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/python3.10/site-packages'
+[44.867s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin'
+[44.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'pythonscriptspath')
+[44.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.ps1'
+[44.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.dsv'
+[44.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.sh'
+[44.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.ps1'
+[44.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.dsv'
+[44.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.sh'
+[44.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.bash'
+[44.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.zsh'
+[44.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/colcon-core/packages/srt_vendor)
+[44.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srt_vendor)
+[44.950s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor' for CMake module files
+[44.951s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor' for CMake config files
+[44.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'cmake_prefix_path')
+[44.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.ps1'
+[44.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.dsv'
+[44.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/cmake_prefix_path.sh'
+[44.954s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib'
+[44.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'ld_library_path_lib')
+[44.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.ps1'
+[44.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.dsv'
+[44.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/ld_library_path_lib.sh'
+[44.957s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin'
+[44.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'path')
+[44.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.ps1'
+[44.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.dsv'
+[44.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/path.sh'
+[44.961s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/pkgconfig/srt_vendor.pc'
+[44.961s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib/python3.10/site-packages'
+[44.962s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin'
+[44.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('srt_vendor', 'pythonscriptspath')
+[44.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.ps1'
+[44.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.dsv'
+[44.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/hook/pythonscriptspath.sh'
+[44.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.ps1'
+[44.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.dsv'
+[44.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.sh'
+[44.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.bash'
+[44.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/srt_vendor/package.zsh'
+[44.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/share/colcon-core/packages/srt_vendor)
+[44.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge' with build type 'ament_cmake'
+[44.971s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge'
+[44.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge': AMENT_PREFIX_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin:${PATH} /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge
+[48.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/build/srt_bridge' returned '1': AMENT_PREFIX_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/navi_sim:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_description:/home/ouxt/ouxt_automation/robotx_ws/install/wamv_control:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/velocity_planner:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_description:/home/ouxt/ouxt_automation/robotx_ws/install/usv_controller:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_communication:/home/ouxt/ouxt_automation/robotx_ws/install/miniv_control:/home/ouxt/ouxt_automation/robotx_ws/install/tcp_sender:/home/ouxt/ouxt_automation/robotx_ws/install/srt:/home/ouxt/ouxt_automation/robotx_ws/install/ros_kvh1750:/home/ouxt/ouxt_automation/robotx_ws/install/serial:/home/ouxt/ouxt_automation/robotx_ws/install/playstation_controller_drivers:/home/ouxt/ouxt_automation/robotx_ws/install/sdl2_vendor2:/home/ouxt/ouxt_automation/robotx_ws/install/perception_bringup:/home/ouxt/ouxt_automation/robotx_ws/install/scan_segmentation:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_ekf:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_costmap_calculator:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_bt_planner:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_tree:/home/ouxt/ouxt_automation/robotx_ws/install/robotx_behavior_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pure_pursuit_planner:/home/ouxt/ouxt_automation/robotx_ws/install/perception:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps:/home/ouxt/ouxt_automation/robotx_ws/install/perception_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/pcl_apps_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/odom_frame_publisher:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_to_geopose:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/nmea_gps_driver:/home/ouxt/ouxt_automation/robotx_ws/install/ndt_omp:/home/ouxt/ouxt_automation/robotx_ws/install/mock_server:/home/ouxt/ouxt_automation/robotx_ws/install/lidar_camera_fusion:/home/ouxt/ouxt_automation/robotx_ws/install/message_synchronizer:/home/ouxt/ouxt_automation/robotx_ws/install/lua_vendor:/home/ouxt/ouxt_automation/robotx_ws/install/local_waypoint_server:/home/ouxt/ouxt_automation/robotx_ws/install/joy_to_twist:/home/ouxt/ouxt_automation/robotx_ws/install/image_processing_utils:/home/ouxt/ouxt_automation/robotx_ws/install/hungarian_solver:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_planner:/home/ouxt/ouxt_automation/robotx_ws/install/hermite_path_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/geometry_msgs_data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_info:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_conversion:/home/ouxt/ouxt_automation/robotx_ws/install/geodesy:/home/ouxt/ouxt_automation/robotx_ws/install/geographic_msgs:/home/ouxt/ouxt_automation/robotx_ws/install/dynamixel_hardware_interface:/home/ouxt/ouxt_automation/robotx_ws/install/data_buffer:/home/ouxt/ouxt_automation/robotx_ws/install/boost_geometry_util:/home/ouxt/ouxt_automation/robotx_ws/install/behavior_tree_action_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/lib:${LD_LIBRARY_PATH} PATH=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_vendor/bin:${PATH} /usr/bin/cmake /home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/srt_bridge -DCMAKE_INSTALL_PREFIX=/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge
+[48.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srt_bridge)
+[48.137s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge' for CMake module files
+[48.137s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge' for CMake config files
+[48.137s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/bin'
+[48.138s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/lib/pkgconfig/srt_bridge.pc'
+[48.138s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/lib/python3.10/site-packages'
+[48.138s] Level 1:colcon.colcon_core.environment:checking '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/bin'
+[48.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/srt_bridge/package.ps1'
+[48.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/srt_bridge/package.dsv'
+[48.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/srt_bridge/package.sh'
+[48.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/srt_bridge/package.bash'
+[48.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/srt_bridge/package.zsh'
+[48.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/srt_bridge/share/colcon-core/packages/srt_bridge)
+[48.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[48.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/local_setup.ps1'
+[48.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/_local_setup_util_ps1.py'
+[48.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/setup.ps1'
+[48.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/local_setup.sh'
+[48.192s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/_local_setup_util_sh.py'
+[48.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/setup.sh'
+[48.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/local_setup.bash'
+[48.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/setup.bash'
+[48.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/local_setup.zsh'
+[48.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ouxt/ouxt_automation/robotx_ws/src/testing/srt_bridge/install/setup.zsh'

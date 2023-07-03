@@ -9,7 +9,7 @@ endif()
 find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
-ament_auo_add_library(srt_bridge_component SHARED src/srt_bridge_component.cpp)
+ament_auto_add_library(srt_bridge_component SHARED src/srt_bridge_component.cpp)
 
 target_compile_definitions(srt_bridge_component PRIVATE "SRT_BRIDGE_BUILDING_LIBRARY")
 
