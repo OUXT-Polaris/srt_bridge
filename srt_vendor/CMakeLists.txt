@@ -11,15 +11,15 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-macro(build_peglib)
+macro(build_srt_vendor)
   set(cmake_commands)
   set(cmake_configure_args -Wno-dev)
   set(cmake_configure_args -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install)
 
   include(ExternalProject)
-  externalproject_add(cpp-peglib-ext
+  externalproject_add(srt_vendor
     GIT_REPOSITORY https://github.com/Haivision/srt.git
-    GIT_TAG 9448e26fcd7602098b4bf9cd7fe535136e89e10b
+    GIT_TAG v1.5.2
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
@@ -34,7 +34,7 @@ macro(build_peglib)
   )
 endmacro()
 
-build_peglib()
+build_srt_vendor()
 ament_export_include_directories(include)
 
 if(BUILD_TESTING)
