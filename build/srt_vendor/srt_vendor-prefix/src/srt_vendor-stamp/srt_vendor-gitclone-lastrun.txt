@@ -1,3 +1,0 @@
-repository='https://github.com/Haivision/srt.git'
-module=''
-tag='origin'
